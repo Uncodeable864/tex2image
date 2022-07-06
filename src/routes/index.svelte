@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>LaTeX to Image API</h1>
+<p>Convert LaTeX to image</p>
+
+<style>
+	@import url('https://rsms.me/inter/inter.css');
+	* {
+		font-family: 'Inter', sans-serif;
+	}
+	@supports (font-variation-settings: normal) {
+		html {
+			font-family: 'Inter var', sans-serif;
+		}
+	}
+</style>
